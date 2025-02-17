@@ -25,5 +25,11 @@ renderer/rendering_method="mobile"
 
 [xogot]
 
-project/editorState=[]
+project/editorState=[{
+"column": 0,
+"current": true,
+"line": 5,
+"path": "res://scripts/player.gd",
+"type": "file"
+}]
 project/breakpoints={}

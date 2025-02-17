@@ -14,10 +14,14 @@ func get_input():
 	input.x =int(Input.is_action_pressed("ui_right"))- int(Input.is_action_pressed("ui_left"))
 	input.y =int(Input.is_action_pressed("ui_down"))- int(Input.is_action_pressed("ui_up"))
 	return input.normalized()
-	
+
+
+
 func player_movement(delta):
 	input = get_input()
-	
+#personal movement
+
+
 	if input != Vector2.ZERO:
 		#if velocity.length() > (friction * delta):
 			#velocity -= velocity.normalized() * (friction*delta)
