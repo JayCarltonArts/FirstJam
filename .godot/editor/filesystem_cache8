@@ -1,10 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739758998
+::res://::1740152821
 icon.svg::CompressedTexture2D::4833370876391074999::1739751046::1739751090::1::::<><>::
 README.md::TextFile::-1::1739751046::0::1::::<><>::
+::res://Art/::1740158845
+Love Provides- Character Sprites.png::CompressedTexture2D::375265798170245640::1740158860::1740158862::1::::<><>::
+Love Provides-Character Sprites.png::CompressedTexture2D::5758196059634120762::1740150722::1740150739::1::::<><>::
 ::res://arts/::1739751559
-::res://scenes/::1739757180
-game.tscn::PackedScene::1117489873836328785::1739757179::0::1::::<><>::
-player.tscn::PackedScene::3721100332057446719::1739757180::0::1::::<><>::res://scripts/player.gd<>uid://ca4k6ap6nmmup::::res://icon.svg
-::res://scripts/::1739754453
-player.gd::GDScript::-1::1739754453::0::1::::<>CharacterBody2D<>::
+::res://scenes/::1740157443
+game.tscn::PackedScene::1117489873836328785::1740155879::0::1::::<><>::
+player.tscn::PackedScene::3721100332057446719::1740157443::0::1::::<><>::res://scripts/player.gd<>uid://fl1tqibi4blg::::res://Art/Love Provides- Character Sprites.png
+::res://scripts/::1740155880
+player.gd::GDScript::-1::1740155880::0::1::::<>CharacterBody2D<>::
