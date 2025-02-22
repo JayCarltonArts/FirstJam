@@ -1,3 +1,10 @@
-res://scenes/player.tscn
 res://scenes/game.tscn
+res://scenes/player.tscn
 res://scripts/player.gd
+res://scenes/fridge.tscn
+res://scripts/interactzone.gd
+res://scenes/Interactions/InteractionManager.tscn
+res://scripts/interaction_manager.gd
+res://scenes/Interactions/interactzone.tscn
+res://scripts/fridge.gd
+res://scenes/Interactions/interaction_area.tscn

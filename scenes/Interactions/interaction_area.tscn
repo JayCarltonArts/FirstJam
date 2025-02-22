@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bns0r6kq2n4et"]
+
+[ext_resource type="Script" path="res://scripts/interactzone.gd" id="1_g8ovb"]
+
+[node name="InteractionArea" type="Area2D"]
+collision_layer = 0
+script = ExtResource("1_g8ovb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

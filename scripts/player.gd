@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-const speed =30
+const speed =60
 var current_dir ="none"
 
 
@@ -12,7 +12,7 @@ func _physics_process(delta):
 func _ready():
 	$AnimatedSprite2D.play("front_idle")
 
-func player_movement(delta):
+func player_movement(_delta):
 	
 #personal movement
 	if Input.is_action_pressed("ui_right"):

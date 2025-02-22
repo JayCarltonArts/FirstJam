@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bngiybfdrkdys"
+path="res://.godot/imported/cute pack 2.wav-93e2410f9fd9a7aa5fd8d0a2bb89c707.sample"
+
+[deps]
+
+source_file="res://music/cute pack 2.wav"
+dest_files=["res://.godot/imported/cute pack 2.wav-93e2410f9fd9a7aa5fd8d0a2bb89c707.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
