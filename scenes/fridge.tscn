@@ -5,34 +5,31 @@
 [ext_resource type="PackedScene" uid="uid://bns0r6kq2n4et" path="res://scenes/Interactions/interaction_area.tscn" id="3_hdxq3"]
 [ext_resource type="Texture2D" uid="uid://bnt5axema2ctf" path="res://arts/Fridge_Open.png" id="3_ix4cn"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_67wpe"]
-radius = 34.6286
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hya67"]
+size = Vector2(39, 31)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eh4jb"]
-size = Vector2(22, 20)
+size = Vector2(20.5, 31)
 
 [node name="Fridge" type="StaticBody2D"]
 script = ExtResource("1_xkjvj")
 
+[node name="Inactive_Sprite" type="Sprite2D" parent="."]
+scale = Vector2(0.916, 1)
+texture = ExtResource("1_qqgal")
+
+[node name="Active_Sprite" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.923, 1)
+texture = ExtResource("3_ix4cn")
+
 [node name="InteractionArea" parent="." instance=ExtResource("3_hdxq3")]
-action = "Open"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
 y_sort_enabled = true
-position = Vector2(0, -5)
-shape = SubResource("CircleShape2D_67wpe")
+position = Vector2(3.5, 10.5)
+shape = SubResource("RectangleShape2D_hya67")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -1)
+position = Vector2(3.75, 1.5)
 shape = SubResource("RectangleShape2D_eh4jb")
-
-[node name="Open_Sprite" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(-4, -7)
-scale = Vector2(0.938477, 1)
-texture = ExtResource("3_ix4cn")
-
-[node name="Closed_Sprite" type="Sprite2D" parent="."]
-position = Vector2(4, -7)
-scale = Vector2(0.96875, 1)
-texture = ExtResource("1_qqgal")

@@ -3,7 +3,9 @@ extends CharacterBody2D
 
 const speed =60
 var current_dir ="none"
+var canPick = true
 
+var completed_goals= 3
 
 func _physics_process(delta):
 	player_movement(delta)
@@ -64,7 +66,12 @@ func play_animation(movement):
 		if movement ==1:
 			animation.play("back_walk")
 		elif movement ==0:
-			animation.play("back_idle")
+			if Input.is_action_pressed("interact"):
+				animation.play("back_interact")
+				
+			else:
+				animation.play("back_idle")
+			
 	elif dir== "down":
 		animation.flip_h=true
 		if movement ==1:

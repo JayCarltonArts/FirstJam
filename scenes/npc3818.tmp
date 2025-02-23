@@ -1,0 +1,101 @@
+[gd_scene load_steps=11 format=3 uid="uid://c6cbhjdilq75b"]
+
+[ext_resource type="Texture2D" uid="uid://fl1tqibi4blg" path="res://Tileart/Love Provides- Character Sprites.png" id="1_3xnrf"]
+[ext_resource type="PackedScene" uid="uid://bns0r6kq2n4et" path="res://scenes/Interactions/interaction_area.tscn" id="2_ajscy"]
+
+[sub_resource type="GDScript" id="GDScript_kfe5j"]
+resource_name = "wife_npc"
+script/source = "extends CharacterBody2D
+
+@onready var interaction_area: InteractionArea =$InteractionArea
+
+#@onready var speech_sound = preload()
+
+
+const lines: Array[String]=[
+	\"You opened the Fridge\"
+]
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	
+	interaction_area.interact = Callable(self,\"_on_interact\")
+	
+
+
+
+func _on_interact():
+	pass
+		
+"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u88to"]
+atlas = ExtResource("1_3xnrf")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xq268"]
+atlas = ExtResource("1_3xnrf")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rnh4u"]
+atlas = ExtResource("1_3xnrf")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fhvf"]
+atlas = ExtResource("1_3xnrf")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dfsux"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u88to")
+}],
+"loop": true,
+"name": &"side_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xq268")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rnh4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8fhvf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rnh4u")
+}],
+"loop": true,
+"name": &"side_walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mqatu"]
+size = Vector2(22.0152, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ja7xo"]
+size = Vector2(23.4613, 24)
+
+[node name="Wife" type="CharacterBody2D"]
+scale = Vector2(1.383, 1.383)
+script = SubResource("GDScript_kfe5j")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -2)
+sprite_frames = SubResource("SpriteFrames_dfsux")
+animation = &"side_idle"
+frame_progress = 0.169419
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.00759, 0)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_mqatu")
+
+[node name="InteractionArea" parent="." instance=ExtResource("2_ajscy")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+position = Vector2(-2.73066, 0)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_ja7xo")

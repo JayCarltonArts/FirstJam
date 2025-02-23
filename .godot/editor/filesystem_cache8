@@ -1,13 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1740257842
+::res://::1740283595
+export_presets.cfg::TextFile::-1::1740281361::0::1::::<><>::
 icon.svg::CompressedTexture2D::4833370876391074999::1739751046::1739751090::1::::<><>::
 README.md::TextFile::-1::1739751046::0::1::::<><>::
-::res://arts/::1740248396
+default_bus_layout.tres::AudioBusLayout::9094259842205068246::1740283595::0::1::::<><>::
+::res://arts/::1740266997
 Clean_Plate.png::CompressedTexture2D::4024836042140193513::1740247434::1740248396::1::::<><>::
 Dirty_Plate.png::CompressedTexture2D::6606427844372322479::1740247397::1740248396::1::::<><>::
 Dish_Collector.png::CompressedTexture2D::4105138719720026691::1740247189::1740248396::1::::<><>::
 Empty_Bowl.png::CompressedTexture2D::1618114889627143240::1740247553::1740248396::1::::<><>::
-Fridge.png::CompressedTexture2D::5095841302576504937::1740247214::1740248396::1::::<><>::
+Fridge.png::CompressedTexture2D::5095841302576504937::1740259682::1740259685::1::::<><>::
 Fridge_Open.png::CompressedTexture2D::3339921552860211947::1740258295::1740258296::1::::<><>::
 Hot_Bowl.png::CompressedTexture2D::4337988772852530532::1740247580::1740248396::1::::<><>::
 Pillow.png::CompressedTexture2D::1523569407742867718::1740247299::1740248396::1::::<><>::
@@ -15,27 +17,34 @@ Sink.png::CompressedTexture2D::4820867054395459760::1740247147::1740248396::1:::
 Stove.png::CompressedTexture2D::7633564809091174880::1740247119::1740248396::1::::<><>::
 TV_off.png::CompressedTexture2D::6216574337339734813::1740247631::1740248396::1::::<><>::
 TV_on.png::CompressedTexture2D::846786178637333490::1740247700::1740248396::1::::<><>::
-::res://music/::1740255401
-cute pack 1.wav::AudioStreamWAV::4210373726765075328::1740255376::1740255401::1::::<><>::
-cute pack 2.wav::AudioStreamWAV::3311790572914523470::1740255385::1740255401::1::::<><>::
-cute pack 3.wav::AudioStreamWAV::1726795954979477238::1740255390::1740255400::1::::<><>::
-cute pack 4.wav::AudioStreamWAV::5518929035223653158::1740255391::1740255401::1::::<><>::
-cute pack 5.wav::AudioStreamWAV::6647105347157623667::1740255396::1740255400::1::::<><>::
-cute pack 6.wav::AudioStreamWAV::281965061975178617::1740255395::1740255400::1::::<><>::
-::res://scenes/::1740257842
-fridge.tscn::PackedScene::1278961060813110725::1740257842::0::1::::<><>::uid://ceup05tq4i5qb::::res://arts/Fridge.png<>res://scripts/fridge.gd<>uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn
-game.tscn::PackedScene::1117489873836328785::1740257781::0::1::::<><>::uid://8dd3i201w1jj::::res://Tileart/Love Provides- Tileset.png<>uid://btar8jrejgg6j::::res://scenes/player.tscn<>uid://c7w3p8xu117tk::::res://Tileart/Love Provides- Objects.png<>uid://shski5pvsyxx::::res://scenes/fridge.tscn
-player.tscn::PackedScene::3721100332057446719::1740257781::0::1::::<><>::res://scripts/player.gd<>uid://fl1tqibi4blg::::res://Tileart/Love Provides- Character Sprites.png
-::res://scenes/Interactions/::1740257903
-InteractionManager.tscn::PackedScene::3905332917282907636::1740257901::0::1::::<><>::res://scripts/interaction_manager.gd
-interaction_area.tscn::PackedScene::3337584378311633959::1740257903::0::1::::<><>::res://scripts/interactzone.gd
-::res://scripts/::1740257901
-fridge.gd::GDScript::-1::1740257901::0::1::::<>StaticBody2D<>::
-interaction_manager.gd::GDScript::-1::1740257901::0::1::::<>Node2D<>::
-interactzone.gd::GDScript::-1::1740257901::0::1::::InteractionArea<>Area2D<>::
-player.gd::GDScript::-1::1740257739::0::1::::<>CharacterBody2D<>::
-::res://Tileart/::1740248416
-Love Provides- Character Sprites.png::CompressedTexture2D::375265798170245640::1740158860::1740248416::1::::<><>::
+::res://arts/Fonts/::1740267253
+PixelatedEleganceRegular-ovyAA.ttf::FontFile::8522930879857069949::1740267247::1740267253::1::::<><>::
+::res://Exports/::1740281749
+::res://Exports/Web/::1740283411
+index.apple-touch-icon.png::CompressedTexture2D::6344379557886031354::1740283376::1740281887::1::::<><>::
+index.icon.png::CompressedTexture2D::6983130233202077177::1740283376::1740281887::1::::<><>::
+index.png::CompressedTexture2D::740634687084396298::1740283376::1740281887::1::::<><>::
+::res://music/::1740283816
+cute pack 1.wav::AudioStreamWAV::4210373726765075328::1740255376::1740283850::1::::<><>::
+::res://scenes/::1740283833
+fridge.tscn::PackedScene::1278961060813110725::1740277782::0::1::::<><>::uid://ceup05tq4i5qb::::res://arts/Fridge.png<>res://scripts/fridge.gd<>uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn<>uid://bnt5axema2ctf::::res://arts/Fridge_Open.png
+game.tscn::PackedScene::1117489873836328785::1740283833::0::1::::<><>::uid://8dd3i201w1jj::::res://Tileart/Love Provides- Tileset.png<>uid://btar8jrejgg6j::::res://scenes/player.tscn<>uid://c7w3p8xu117tk::::res://Tileart/Love Provides- Objects.png<>uid://shski5pvsyxx::::res://scenes/fridge.tscn<>uid://nuspk21clfo6::::res://scenes/tv.tscn<>uid://c6cbhjdilq75b::::res://scenes/npc.tscn<>uid://d02vqwqspbnvh::::res://scenes/pickable_item.tscn<>uid://c1eg5waccbguh::::res://arts/Dirty_Plate.png<>uid://bxlwpxt4qxd7f::::res://arts/Clean_Plate.png<>uid://vya73f7hrmio::::res://arts/Pillow.png
+npc.tscn::PackedScene::6952897970946840813::1740283833::0::1::::<><>::uid://fl1tqibi4blg::::res://Tileart/Love Provides- Character Sprites.png<>uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn
+pickable_item.tscn::PackedScene::8971026152008812349::1740281349::0::1::::<><>::uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn
+player.tscn::PackedScene::3721100332057446719::1740281349::0::1::::<><>::res://scripts/player.gd<>uid://fl1tqibi4blg::::res://Tileart/Love Provides- Character Sprites.png
+tv.tscn::PackedScene::954862783281639303::1740281121::0::1::::<><>::res://scripts/fridge.gd<>uid://mcgpealk28eo::::res://arts/TV_on.png<>uid://cutmcof36fcuv::::res://arts/TV_off.png<>uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn
+::res://scenes/Interactions/::1740280961
+InteractionManager.tscn::PackedScene::3905332917282907636::1740280252::0::1::::<><>::res://scripts/interaction_manager.gd<>uid://dtotoq5i43jmr::::res://arts/Fonts/PixelatedEleganceRegular-ovyAA.ttf
+interaction_area.tscn::PackedScene::3337584378311633959::1740265998::0::1::::<><>::res://scripts/interaction_area.gd
+::res://scripts/::1740283685
+fridge.gd::GDScript::-1::1740277781::0::1::::<>StaticBody2D<>::
+interaction_area.gd::GDScript::-1::1740283325::0::1::::InteractionArea<>Area2D<>::
+interaction_manager.gd::GDScript::-1::1740283254::0::1::::<>Node2D<>::
+placement_object.gd::GDScript::-1::1740280476::0::1::::<>Node2D<>::
+place_area.gd::GDScript::-1::1740280713::0::1::::InteractionArea<>Area2D<>::
+player.gd::GDScript::-1::1740279985::0::1::::<>CharacterBody2D<>::
+::res://Tileart/::1740275985
+Love Provides- Character Sprites.png::CompressedTexture2D::375265798170245640::1740275983::1740275985::1::::<><>::
 Love Provides- Objects.png::CompressedTexture2D::7066029306844156992::1740248390::1740248416::1::::<><>::
 Love Provides- Tileset.png::CompressedTexture2D::2322657589592930259::1740239124::1740248416::1::::<><>::
 Love Provides-Character Sprites.png::CompressedTexture2D::5758196059634120762::1740150722::1740248416::1::::<><>::

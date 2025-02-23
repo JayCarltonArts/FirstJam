@@ -1,0 +1,10 @@
+res://scenes/Interactions/InteractionManager.tscn::b68b893c993575aa8e0aaa9b8df76193::1740280252::res://.godot/exported/133200997/export-18322dcf311fd218d0b2f0ee88dee6b6-InteractionManager.scn
+res://scenes/Interactions/interaction_area.tscn::070d5484e4f3aa9f6bf9357563dc4ba4::1740265998::res://.godot/exported/133200997/export-40e4f436bdf0b8dbced7beef39022d9e-interaction_area.scn
+res://scenes/fridge.tscn::20c80669cfe05e0bf89e57192ee08bc3::1740277782::res://.godot/exported/133200997/export-f90a11ba45fc086ea016552447ecdf11-fridge.scn
+res://scenes/game.tscn::1e2d75f0b469b29951e8c8af91aa1603::1740284096::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/npc.tscn::9c49a683081366d8fa63751eb7e71bbc::1740284096::res://.godot/exported/133200997/export-51652f9d5c9453037b2bf9159a453860-npc.scn
+res://scenes/pickable_item.tscn::6d7de4d23802e8752a810f7a7a433feb::1740281349::res://.godot/exported/133200997/export-2faf66a13c74923bbafd8d2592770f31-pickable_item.scn
+res://scenes/player.tscn::b406adb06a85cf1464d069217a691135::1740281349::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/tv.tscn::1ac58e60cf60bb5f9439d044b8a24385::1740281121::res://.godot/exported/133200997/export-d2bea7569220cc477a4cd15484af4e29-tv.scn
+res://scenes/music.tscn::d1047b701024bfb807160142f9590400::1740284096::res://.godot/exported/133200997/export-bfd8027ae1117ff610be6f2619a76089-music.scn
+res://default_bus_layout.tres::ba0a3c28c4b0047fbf8fbf03858c25b2::1740283595::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res

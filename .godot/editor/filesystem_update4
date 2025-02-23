@@ -8,3 +8,11 @@ res://scripts/interaction_manager.gd
 res://scenes/Interactions/interactzone.tscn
 res://scripts/fridge.gd
 res://scenes/Interactions/interaction_area.tscn
+res://scripts/interaction_area.gd
+res://scenes/tv.tscn
+res://scenes/pickable_item.tscn
+res://scenes/npc.tscn
+res://scenes/placement_object.tscn
+res://scenes/Interactions/place_area.gd
+res://default_bus_layout.tres
+res://scenes/music.tscn

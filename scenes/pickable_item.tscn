@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3 uid="uid://d02vqwqspbnvh"]
+
+[ext_resource type="PackedScene" uid="uid://bns0r6kq2n4et" path="res://scenes/Interactions/interaction_area.tscn" id="1_40x10"]
+
+[sub_resource type="GDScript" id="GDScript_65pqo"]
+resource_name = "pickable_item"
+script/source = "extends StaticBody2D
+
+var picked = false
+
+@onready var player = get_tree().get_first_node_in_group(\"player\")
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	if picked==true:
+		
+		
+		if player.current_dir == \"right\":
+			self.z_index=2
+			position.x=player.global_position.x+10
+			position.y=player.global_position.y-5
+		elif player.current_dir ==\"left\":
+			self.z_index=2
+			position.x=player.global_position.x-10
+			position.y=player.global_position.y-5
+		elif player.current_dir ==\"up\":
+			self.z_index=1
+			position.x=player.global_position.x
+			position.y=player.global_position.y-20
+		elif player.current_dir ==\"down\":
+			self.z_index=2
+			position.x=player.global_position.x
+			position.y=player.global_position.y
+		
+func _input(event):
+	if Input.is_action_just_pressed(\"interact\"):
+		var bodies = $InteractionArea.get_overlapping_bodies()
+		for body in bodies:
+			if body.name ==\"Player\" and player.canPick==true:
+				picked = true
+				player.canPick = false
+			elif Input.is_action_just_pressed(\"interact\") and player.canPick==false:
+				
+				
+				picked = false
+				player.canPick = true
+		
+	
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wmbne"]
+radius = 22.0227
+
+[node name="Pickable_item" type="StaticBody2D"]
+script = SubResource("GDScript_65pqo")
+
+[node name="InteractionArea" parent="." instance=ExtResource("1_40x10")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("CircleShape2D_wmbne")

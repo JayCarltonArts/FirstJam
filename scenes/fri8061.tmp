@@ -1,0 +1,38 @@
+[gd_scene load_steps=7 format=3 uid="uid://shski5pvsyxx"]
+
+[ext_resource type="Texture2D" uid="uid://ceup05tq4i5qb" path="res://arts/Fridge.png" id="1_qqgal"]
+[ext_resource type="Script" path="res://scripts/fridge.gd" id="1_xkjvj"]
+[ext_resource type="PackedScene" uid="uid://bns0r6kq2n4et" path="res://scenes/Interactions/interaction_area.tscn" id="3_hdxq3"]
+[ext_resource type="Texture2D" uid="uid://bnt5axema2ctf" path="res://arts/Fridge_Open.png" id="3_ix4cn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hya67"]
+size = Vector2(21, 47)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eh4jb"]
+size = Vector2(21, 24)
+
+[node name="Fridge" type="StaticBody2D"]
+script = ExtResource("1_xkjvj")
+
+[node name="Closed_Sprite" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-5, -7)
+scale = Vector2(0.765625, 0.821289)
+texture = ExtResource("1_qqgal")
+
+[node name="Opened_Sprite" type="Sprite2D" parent="."]
+position = Vector2(-4, -5.5)
+scale = Vector2(0.875, 0.90625)
+texture = ExtResource("3_ix4cn")
+
+[node name="InteractionArea" parent="." instance=ExtResource("3_hdxq3")]
+action = "Open"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+y_sort_enabled = true
+position = Vector2(-0.5, 8)
+shape = SubResource("RectangleShape2D_hya67")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -3)
+shape = SubResource("RectangleShape2D_eh4jb")

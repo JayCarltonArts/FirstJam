@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://coy0sjc8vumby"]
+
+[ext_resource type="AudioStream" uid="uid://b08sifulcv01a" path="res://music/cute pack 1.wav" id="1_5utam"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_5utam")
+autoplay = true

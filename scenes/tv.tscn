@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://nuspk21clfo6"]
+
+[ext_resource type="Script" path="res://scripts/fridge.gd" id="1_ortn8"]
+[ext_resource type="Texture2D" uid="uid://mcgpealk28eo" path="res://arts/TV_on.png" id="2_tqsrj"]
+[ext_resource type="Texture2D" uid="uid://cutmcof36fcuv" path="res://arts/TV_off.png" id="3_phsh8"]
+[ext_resource type="PackedScene" uid="uid://bns0r6kq2n4et" path="res://scenes/Interactions/interaction_area.tscn" id="4_0hagm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hya67"]
+size = Vector2(39, 31)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eh4jb"]
+size = Vector2(17.25, 31)
+
+[node name="Tv" type="StaticBody2D"]
+z_index = 1
+y_sort_enabled = true
+script = ExtResource("1_ortn8")
+
+[node name="Active_Sprite" type="Sprite2D" parent="."]
+z_index = 1
+scale = Vector2(0.916, 1)
+texture = ExtResource("2_tqsrj")
+
+[node name="Inactive_Sprite" type="Sprite2D" parent="."]
+visible = false
+z_index = 1
+scale = Vector2(0.923, 1)
+texture = ExtResource("3_phsh8")
+
+[node name="InteractionArea" parent="." instance=ExtResource("4_0hagm")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+y_sort_enabled = true
+position = Vector2(12.5, -0.5)
+shape = SubResource("RectangleShape2D_hya67")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Placemat"]]
+y_sort_enabled = true
+position = Vector2(2, -1)
+shape = SubResource("RectangleShape2D_eh4jb")

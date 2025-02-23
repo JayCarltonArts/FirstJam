@@ -1,11 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://bvv1i6sdtrerk"]
+[gd_scene load_steps=3 format=3 uid="uid://bvv1i6sdtrerk"]
 
 [ext_resource type="Script" path="res://scripts/interaction_manager.gd" id="1_ashrw"]
+[ext_resource type="FontFile" uid="uid://dtotoq5i43jmr" path="res://arts/Fonts/PixelatedEleganceRegular-ovyAA.ttf" id="2_5d8os"]
 
 [node name="InteractionManager" type="Node2D"]
 script = ExtResource("1_ashrw")
 
 [node name="Label" type="Label" parent="."]
+visible = false
 z_index = 20
 anchors_preset = 5
 anchor_left = 0.5
@@ -14,6 +16,8 @@ offset_left = -71.0
 offset_right = 71.0
 offset_bottom = 23.0
 grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_5d8os")
+theme_override_font_sizes/font_size = 4
 text = "[Space] to Interact"
 horizontal_alignment = 1
 vertical_alignment = 1
