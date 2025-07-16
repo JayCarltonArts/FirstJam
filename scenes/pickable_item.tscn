@@ -39,10 +39,9 @@ func _input(event):
 				picked = true
 				player.canPick = false
 			elif Input.is_action_just_pressed(\"interact\") and player.canPick==false:
-				
-				
 				picked = false
 				player.canPick = true
+				
 		
 	
 "

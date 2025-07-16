@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://shski5pvsyxx"]
 
 [ext_resource type="Texture2D" uid="uid://ceup05tq4i5qb" path="res://arts/Fridge.png" id="1_qqgal"]
-[ext_resource type="Script" path="res://scripts/fridge.gd" id="1_xkjvj"]
+[ext_resource type="Script" uid="uid://b342c0qunv6g3" path="res://scripts/fridge.gd" id="1_xkjvj"]
 [ext_resource type="PackedScene" uid="uid://bns0r6kq2n4et" path="res://scenes/Interactions/interaction_area.tscn" id="3_hdxq3"]
 [ext_resource type="Texture2D" uid="uid://bnt5axema2ctf" path="res://arts/Fridge_Open.png" id="3_ix4cn"]
 
@@ -9,7 +9,7 @@
 size = Vector2(39, 31)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eh4jb"]
-size = Vector2(20.5, 31)
+size = Vector2(20.5, 22)
 
 [node name="Fridge" type="StaticBody2D"]
 script = ExtResource("1_xkjvj")
@@ -27,9 +27,9 @@ texture = ExtResource("3_ix4cn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
 y_sort_enabled = true
-position = Vector2(3.5, 10.5)
+position = Vector2(4, 13)
 shape = SubResource("RectangleShape2D_hya67")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(3.75, 1.5)
+position = Vector2(3.75, 6)
 shape = SubResource("RectangleShape2D_eh4jb")

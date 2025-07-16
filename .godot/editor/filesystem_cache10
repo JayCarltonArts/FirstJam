@@ -1,0 +1,52 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1752629566
+default_bus_layout.tres::AudioBusLayout::9094259842205068246::1752628066::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1740284116::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::4833370876391074999::1739751046::1741483657::1::::<><><>0<>0<>5e4b87b69415753dcd389e5dcfa1b0df<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile/TextFile::-1::1739751046::0::1::::<><><>0<>0<><>::
+::res://arts/::1741483657
+Clean_Plate.png::CompressedTexture2D/CompressedTexture2D::4024836042140193513::1740247434::1741483657::1::::<><><>0<>0<>bd6dc8fcdfb9c9eea9aac2d10c7d40a0<>res://.godot/imported/Clean_Plate.png-4144f7a986a7ead513d415d44e6f26a4.ctex::
+Dirty_Plate.png::CompressedTexture2D/CompressedTexture2D::6606427844372322479::1740247397::1741483657::1::::<><><>0<>0<>dbe8170ef3e9e1b9764716d0538955dc<>res://.godot/imported/Dirty_Plate.png-42b481610a83351aa8abd3b6fae1bb49.ctex::
+Dish_Collector.png::CompressedTexture2D/CompressedTexture2D::4105138719720026691::1740247189::1741483657::1::::<><><>0<>0<>9924cecbb8ce34d3018b186d7702deb9<>res://.godot/imported/Dish_Collector.png-354001f3289a0dbb9b1d9fc4e69afa23.ctex::
+Empty_Bowl.png::CompressedTexture2D/CompressedTexture2D::1618114889627143240::1740247553::1741483657::1::::<><><>0<>0<>7b7c58f9e5a1258e4753ec84c280a1be<>res://.godot/imported/Empty_Bowl.png-5825e8b8f10a11515bcf0c5bb2384c4c.ctex::
+Fridge.png::CompressedTexture2D/CompressedTexture2D::5095841302576504937::1740259682::1741483657::1::::<><><>0<>0<>f91d47050431dc2929f66c00688688f2<>res://.godot/imported/Fridge.png-64b2910c608b1635fdd64fa524f7759b.ctex::
+Fridge_Open.png::CompressedTexture2D/CompressedTexture2D::3339921552860211947::1740258295::1741483657::1::::<><><>0<>0<>4b970a0e20e1e1a00b4833a40bc465c1<>res://.godot/imported/Fridge_Open.png-7836b490465b35db527a8f0e27590651.ctex::
+Hot_Bowl.png::CompressedTexture2D/CompressedTexture2D::4337988772852530532::1740247580::1741483657::1::::<><><>0<>0<>4ce32e7b5b1ef7b6b72b69b6df2fa9de<>res://.godot/imported/Hot_Bowl.png-f9a97e83b8a21da997001f04f742ce14.ctex::
+Pillow.png::CompressedTexture2D/CompressedTexture2D::1523569407742867718::1740247299::1741483657::1::::<><><>0<>0<>9e555a31c53c8afc52b8758a1273314b<>res://.godot/imported/Pillow.png-0b61fb5e588d8b6609ffccbe0a8513d2.ctex::
+Sink.png::CompressedTexture2D/CompressedTexture2D::4820867054395459760::1740247147::1741483657::1::::<><><>0<>0<>934a41bcfa83c5e7067e7d6e611ffe47<>res://.godot/imported/Sink.png-77cf203bae73d258a438a71471cbb79d.ctex::
+Stove.png::CompressedTexture2D/CompressedTexture2D::7633564809091174880::1740247119::1741483657::1::::<><><>0<>0<>08fcf9bedc7cd11618416a869632b2bd<>res://.godot/imported/Stove.png-780d4d82f272d49bd9817352ba0f4ac7.ctex::
+TV_off.png::CompressedTexture2D/CompressedTexture2D::6216574337339734813::1740247631::1741483657::1::::<><><>0<>0<>bfac35a8ff6a51ac76f19705fbd3933c<>res://.godot/imported/TV_off.png-982da180bb4f042f7794325710c15e4d.ctex::
+TV_on.png::CompressedTexture2D/CompressedTexture2D::846786178637333490::1740247700::1741483657::1::::<><><>0<>0<>aa1b3cdf3ec8cda1a5ee39e8caf47585<>res://.godot/imported/TV_on.png-ed96dd011e6caa0c6f1e25c1a54274c9.ctex::
+::res://arts/Fonts/::1742699593
+PixelatedEleganceRegular-ovyAA.ttf::FontFile/FontFile::8522930879857069949::1740267247::1741483657::1::::<><><>0<>0<>c4eae7b5a85cd0a13122146f4af9ce4b<>res://.godot/imported/PixelatedEleganceRegular-ovyAA.ttf-4ada20ade8d9b2a4e1d39ece1d5a71d2.fontdata::
+::res://Exports/::1740281749
+::res://Exports/Web/::1741483657
+index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::6344379557886031354::1740284116::1741483657::1::::<><><>0<>0<>fbd4835a3f19a291363edae23bf50e8a<>res://.godot/imported/index.apple-touch-icon.png-9ea3cb3a39a1a52600ae39daa81f6ea2.ctex::
+index.icon.png::CompressedTexture2D/CompressedTexture2D::6983130233202077177::1740284116::1741483657::1::::<><><>0<>0<>6d62f8f32dd5f8c1659bd5108235f91f<>res://.godot/imported/index.icon.png-20777639825951eeb5746939fb2bec26.ctex::
+index.png::CompressedTexture2D/CompressedTexture2D::740634687084396298::1740284116::1741483657::1::::<><><>0<>0<>7440d9840f096ebfa64af7be6339ff1f<>res://.godot/imported/index.png-9987236a5a3b5639e8ce136f19818f41.ctex::
+::res://music/::1741483657
+cute pack 1.wav::AudioStreamWAV/AudioStreamWAV::4210373726765075328::1740255376::1741483657::1::::<><><>0<>0<>c93179f0c3eaaa8e5e8fe11a36de13b0<>res://.godot/imported/cute pack 1.wav-5b1abd323444692963af48ab63681189.sample::
+::res://scenes/::1752629498
+fridge.tscn::PackedScene/PackedScene::1278961060813110725::1752621099::0::1::::<><><>0<>0<><>::uid://ceup05tq4i5qb::::res://arts/Fridge.png<>uid://b342c0qunv6g3::::res://scripts/fridge.gd<>uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn<>uid://bnt5axema2ctf::::res://arts/Fridge_Open.png
+game.tscn::PackedScene/PackedScene::1117489873836328785::1752621099::0::1::::<><><>0<>0<><>::uid://8dd3i201w1jj::::res://Tileart/Love Provides- Tileset.png<>uid://btar8jrejgg6j::::res://scenes/player.tscn<>uid://c7w3p8xu117tk::::res://Tileart/Love Provides- Objects.png<>uid://shski5pvsyxx::::res://scenes/fridge.tscn<>uid://nuspk21clfo6::::res://scenes/tv.tscn<>uid://c6cbhjdilq75b::::res://scenes/npc.tscn<>uid://d02vqwqspbnvh::::res://scenes/pickable_item.tscn<>uid://c1eg5waccbguh::::res://arts/Dirty_Plate.png<>uid://bxlwpxt4qxd7f::::res://arts/Clean_Plate.png<>uid://vya73f7hrmio::::res://arts/Pillow.png
+main_menu.tscn::PackedScene::2627108754817281425::1752629498::0::1::::<><><>0<>0<><>::uid://8dd3i201w1jj::::res://Tileart/Love Provides- Tileset.png
+music.tscn::PackedScene/PackedScene::5806580790853532026::1741483749::0::1::::<><><>0<>0<><>::uid://b08sifulcv01a::::res://music/cute pack 1.wav
+npc.tscn::PackedScene/PackedScene::6952897970946840813::1741483749::0::1::::<><><>0<>0<><>::uid://fl1tqibi4blg::::res://Tileart/Love Provides- Character Sprites.png<>uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn
+pickable_item.tscn::PackedScene/PackedScene::8971026152008812349::1752621099::0::1::::<><><>0<>0<><>::uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn
+player.tscn::PackedScene/PackedScene::3721100332057446719::1741483749::0::1::::<><><>0<>0<><>::uid://dccu75w2pcywu::::res://scripts/player.gd<>uid://fl1tqibi4blg::::res://Tileart/Love Provides- Character Sprites.png
+tv.tscn::PackedScene/PackedScene::954862783281639303::1741483749::0::1::::<><><>0<>0<><>::uid://b342c0qunv6g3::::res://scripts/fridge.gd<>uid://mcgpealk28eo::::res://arts/TV_on.png<>uid://cutmcof36fcuv::::res://arts/TV_off.png<>uid://bns0r6kq2n4et::::res://scenes/Interactions/interaction_area.tscn
+::res://scenes/Interactions/::1752621099
+InteractionManager.tscn::PackedScene/PackedScene::3905332917282907636::1752621099::0::1::::<><><>0<>0<><>::uid://bhodqctxuu7aw::::res://scripts/interaction_manager.gd<>uid://dtotoq5i43jmr::::res://arts/Fonts/PixelatedEleganceRegular-ovyAA.ttf
+interaction_area.tscn::PackedScene/PackedScene::3337584378311633959::1752621099::0::1::::<><><>0<>0<><>::uid://bu672m2wedemw::::res://scripts/interaction_area.gd
+::res://scripts/::1741483657
+fridge.gd::GDScript/GDScript::4413219529545812188::1740277781::0::1::::<>StaticBody2D<><>0<>0<><>::
+interaction_area.gd::GDScript/GDScript::3856185100028529430::1740283325::0::1::::InteractionArea<>Area2D<><>0<>0<><>::
+interaction_manager.gd::GDScript/GDScript::2906854736867491094::1740283254::0::1::::<>Node2D<><>0<>0<><>::
+placement_object.gd::GDScript/GDScript::4764230467223528480::1740280476::0::1::::<>Node2D<><>0<>0<><>::
+place_area.gd::GDScript/GDScript::2133658853699380706::1740280713::0::1::::InteractionArea<>Area2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::7305041590056883520::1740279985::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Tileart/::1741483657
+Love Provides- Character Sprites.png::CompressedTexture2D/CompressedTexture2D::375265798170245640::1740275983::1741483657::1::::<><><>0<>0<>21c99660558a5f51d240eaa1bc036a92<>res://.godot/imported/Love Provides- Character Sprites.png-81fb2baafef92d40acc26bc63a7d5f2e.ctex::
+Love Provides- Objects.png::CompressedTexture2D/CompressedTexture2D::7066029306844156992::1740248390::1741483657::1::::<><><>0<>0<>8e5674429116d0d2a2f4364b376874b4<>res://.godot/imported/Love Provides- Objects.png-7cc5bda0fbc92314d7bfa2542fe971c9.ctex::
+Love Provides- Tileset.png::CompressedTexture2D/CompressedTexture2D::2322657589592930259::1740239124::1741483657::1::::<><><>0<>0<>643a84915cbd3dca2f7a762ea1218199<>res://.godot/imported/Love Provides- Tileset.png-de00fc4762e5dcd770f07ff52501aa19.ctex::
+Love Provides-Character Sprites.png::CompressedTexture2D/CompressedTexture2D::5758196059634120762::1740150722::1741483657::1::::<><><>0<>0<>87f63639a191f7e779f44e5efed12827<>res://.godot/imported/Love Provides-Character Sprites.png-a78237cdd5a7832536950b8da08d44a2.ctex::

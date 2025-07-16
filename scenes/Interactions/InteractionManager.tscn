@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bvv1i6sdtrerk"]
 
-[ext_resource type="Script" path="res://scripts/interaction_manager.gd" id="1_ashrw"]
+[ext_resource type="Script" uid="uid://bhodqctxuu7aw" path="res://scripts/interaction_manager.gd" id="1_ashrw"]
 [ext_resource type="FontFile" uid="uid://dtotoq5i43jmr" path="res://arts/Fonts/PixelatedEleganceRegular-ovyAA.ttf" id="2_5d8os"]
 
 [node name="InteractionManager" type="Node2D"]
